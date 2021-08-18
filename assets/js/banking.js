@@ -1,6 +1,7 @@
 const depositBtn = document.getElementById('deposit-btn');
 const withdrawBtn = document.getElementById('withdraw-btn');
 
+// function to get the amount 
 function getInputData(inputFieldId) {
     const inputField = document.getElementById(inputFieldId);
     const inputData = inputField.value
